@@ -9,7 +9,6 @@ export class LoginPage {
 
   // Nav to login
   async goto() {
-  await this.page.goto('/');
   await this.page.click('a[href="/login"]');
   await expect(this.page).toHaveURL(/.*\/login/);
 }
