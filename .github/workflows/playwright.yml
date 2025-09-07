@@ -23,9 +23,6 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Show Playwright config
-        run: npx playwright show-config
-
       - name: Run Playwright tests
         run: npx playwright test --reporter=html,junit --reporter-options junit.outputFile=test-results/results.xml
 
