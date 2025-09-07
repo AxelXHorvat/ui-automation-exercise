@@ -24,7 +24,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test --reporter=html,junit --reporter-options junit.outputFile=test-results/results.xml
+        run: npx playwright test
 
       - name: Upload Playwright HTML report
         if: ${{ !cancelled() }}
