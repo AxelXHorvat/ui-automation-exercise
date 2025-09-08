@@ -1,6 +1,3 @@
-// I grouped all 5 required test cases into a single file for clarity.
-// In a real project I would split them by feature(Login,Register) but for this challenge it’s easier to review.
-
 import { test } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { RegisterPage } from '../pages/RegisterPage';

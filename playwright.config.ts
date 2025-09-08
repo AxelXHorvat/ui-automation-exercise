@@ -18,13 +18,15 @@ export default defineConfig({
 ],
   
   use: {
-    /* Base URL to use in actions like `await page.goto('/')`. */
+
     baseURL: 'https://automationexercise.com',
     actionTimeout: 15000,   // 15s for actions like click/fill
     navigationTimeout: 20000, // 20s for page.goto
     trace: 'on-first-retry'   // 500ms delay between actions
   },
   timeout: 60000, // 60s max per test
+
+  
   /* Configure projects for major browsers */
   projects: [
     {
