@@ -50,4 +50,6 @@ A workflow is provided in .github/workflows/playwright.yml that:
 ### Reports
 
 - After each run you can download the **HTML report** from the Actions page to see a detailed run overview.  
-- The **JUnit XML** report is also uploaded, so it can be integrated with CI tools or reporting dashboards.  
+- The **JUnit XML** report is also uploaded, so it can be integrated with CI tools or reporting dashboards.
+
+---
